@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -96,12 +96,13 @@ nav ul li a {
   1% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
 
-#questionMark{
+#questionMark {
   animation: rotateQuestionMark 3s linear infinite;
 }
 
@@ -109,6 +110,7 @@ nav ul li a {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
