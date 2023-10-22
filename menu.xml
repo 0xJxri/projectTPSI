@@ -1,5 +1,113 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="menu.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <menu>
-    
+    <categoria nome="Antipasti">
+        <piatto>
+            <nome>Supplì al Telefono</nome>
+            <descrizione>Supplì fritti con cuore di mozzarella filante, serviti con salsa marinara</descrizione>
+            <prezzo>€7.99</prezzo>
+            <URLimg>https://www.giallozafferano.it/images/9-964/Suppli-al-telefono_780x520_wm.jpg</URLimg>
+        </piatto>
+        <piatto>
+            <nome>Bruschetta Pomodoro</nome>
+            <descrizione>Bruschetta con pomodoro fresco, aglio, basilico e olio d'oliva extra
+                vergine</descrizione>
+            <prezzo>€6.99</prezzo>
+            <URLimg>https://www.giallozafferano.it/images/ricette/223/22329/foto_hd/hd650x433_wm.jpg</URLimg>
+        </piatto>
+        <piatto>
+            <nome>Insalata Caprese</nome>
+            <descrizione>Insalata con pomodori, mozzarella, basilico e olio d'oliva</descrizione>
+            <prezzo>€8.99</prezzo>
+            <URLimg>https://t3.ftcdn.net/jpg/01/09/46/84/360_F_109468437_19PltAbH0SkoFFaqVWr63b7UAvTUdqjV.jpg</URLimg>
+        </piatto>
+        <piatto>
+            <nome>Carpaccio di Manzo</nome>
+            <descrizione>Carpaccio di manzo con rucola, parmigiano e olio d'oliva</descrizione>
+            <prezzo>€9.99</prezzo>
+            <URLimg>https://www.donnamoderna.com/content/uploads/2007/03/carpaccio-di-vitello-con-rucola-e-grana-725x545.jpg</URLimg>
+        </piatto>
+    </categoria>
+
+    <categoria nome="Piatti Principali">
+        <piatto>
+            <nome>Tagliatelle al Tartufo</nome>
+            <descrizione>Tagliatelle fatte in casa con salsa al tartufo bianco e parmigiano</descrizione>
+            <prezzo>€15.99</prezzo>
+            <URLimg>https://www.lemillericette.it/wp-content/uploads/2022/08/Tagliolini-al-tartufo-.jpeg</URLimg>
+        </piatto>
+        <piatto>
+            <nome>Osso Buco alla Milanese</nome>
+            <descrizione>Osso buco di vitello cotto lentamente con zafferano, servito con risotto
+                alla milanese</descrizione>
+            <prezzo>€19.99</prezzo>
+            <URLimg>https://www.sfizioso.it/wp-content/uploads/2017/10/ossobuco-di-vitello-alla-milanese-1024x683.jpg</URLimg>
+        </piatto>
+        <piatto>
+            <nome>Pizza Margherita</nome>
+            <descrizione>Pizza con pomodoro, mozzarella, basilico e olio d'oliva</descrizione>
+            <prezzo>€12.99</prezzo>
+            <URLimg>https://it.ooni.com/cdn/shop/articles/Margherita-9920.jpg?</URLimg>
+        </piatto>
+        <piatto>
+            <nome>Risotto ai Funghi</nome>
+            <descrizione>Risotto cremoso con funghi porcini e aromatizzato con prezzemolo</descrizione>
+            <prezzo>€14.99</prezzo>
+            <URLimg>https://blog.giallozafferano.it/ricettepanedolci/wp-content/uploads/2020/10/risotto-ai-funghi-1-720x480.jpeg</URLimg>
+        </piatto>
+    </categoria>
+
+    <categoria nome="Dolci">
+        <piatto>
+            <nome>Tiramisù</nome>
+            <descrizione>Il classico tiramisù italiano, con caffè, mascarpone e cacao</descrizione>
+            <prezzo>€6.49</prezzo>
+            <URLimg>https://www.giallozafferano.it/images/251-25105/Tiramisu-della-tradizione_650x433_wm.jpg</URLimg>
+        </piatto>
+        <piatto>
+            <nome>Panna Cotta</nome>
+            <descrizione>Panna cotta con salsa ai frutti di bosco e granella di nocciole</descrizione>
+            <prezzo>€5.99</prezzo>
+            <URLimg>https://www.cucchiaio.it/content/cucchiaio/it/ricette/2009/11/ricetta-panna-cotta/_jcr_content/header-par/image_single.img.jpg/1646829031222.jpg</URLimg>
+        </piatto>
+        <piatto>
+            <nome>Cannoli Siciliani</nome>
+            <descrizione>Cannoli croccanti ripieni di ricotta e cioccolato con sfoglia croccante</descrizione>
+            <prezzo>€7.99</prezzo>
+            <URLimg>https://www.cucchiaio.it/content/cucchiaio/it/ricette/2015/11/cannoli-siciliani/_jcr_content/header-par/image-single.img.jpg/1448891641713.jpg</URLimg>
+        </piatto>
+        <piatto>
+            <nome>Profiteroles al Cioccolato</nome>
+            <descrizione>Profiteroles ripieni di crema al cioccolato e glassati con cioccolato
+                fondente</descrizione>
+            <prezzo>€8.49</prezzo>
+            <URLimg>https://www.cucchiaio.it/content/dam/cucchiaio/it/ricette/2011/06/ricetta-profiteroles-cioccolato/_MG_7797.jpg</URLimg>
+        </piatto>
+    </categoria>
+
+    <categoria nome="Bevande">
+        <piatto>
+            <nome>Acqua Minerale (Naturale o Gassata)</nome>
+            <descrizione>Acqua minerale in bottiglia, scelta tra naturale o gassata</descrizione>
+            <prezzo>€1.99</prezzo>
+            <URLimg>https://www.partylunch.it/wp-content/uploads/2020/06/Acqua-Nat-1.jpg</URLimg>
+        </piatto>
+        <piatto>
+            <nome>Vino Rosso Chianti</nome>
+            <descrizione>Vino rosso Chianti della Toscana, bottiglia da 750 ml.</descrizione>
+            <prezzo>€12.99</prezzo>
+            <URLimg>https://www.4leoni.it/wp-content/uploads/2020/05/Vino-rosso-della-casa-Chianti-Classico75cl.jpg</URLimg>
+        </piatto>
+        <piatto>
+            <nome>Aranciata</nome>
+            <descrizione>Aranciata italiana frizzante di Fanta in bottiglia da 1.5L </descrizione>
+            <prezzo>€2.49</prezzo>
+            <URLimg>https://www.bereacasa.it/wp-content/uploads/2017/12/fanta-aranciata-15lt-1.jpg</URLimg>
+        </piatto>
+        <piatto>
+            <nome>Caffè Espresso</nome>
+            <descrizione>Caffè in tazza espresso con chicchi di caffè italiani</descrizione>
+            <prezzo>€2</prezzo>
+            <URLimg>https://www.illy.com/content/dam/channels/website/consumer/global/recipies/Doppio-tazza-media_mobile.jpg</URLimg>
+        </piatto>
+    </categoria>
+
 </menu>
